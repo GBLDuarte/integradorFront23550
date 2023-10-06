@@ -33,6 +33,7 @@ header {
 
 .imgPrimera{ 
     filter: brightness(0.3);
+    width: 100%;
 }
 
 .descripcionPrimera{ 
@@ -41,8 +42,15 @@ header {
     top: 40%;
 }
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 4rem;
+}
+
 .tituloDescripcion, .textoDescripcion{
     color: white;
-    padding-left: 75%;
+    max-width: 30%;
 }
 
