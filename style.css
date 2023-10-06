@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+header {
+    padding: 0 50px;
+    background-color: rgb(71, 71, 71);
+}
+
+.imgNav{
+    width: 35%;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-nav{
+    font-size: 20px;
+    column-gap: 1.5rem;
+}
+
+.navbar-nav a {
+    color: grey;
+}
+
+/* Secciones */
+.primera{ 
+    position: relative;
+}
+
+.imgPrimera{ 
+    filter: brightness(0.3);
+}
+
+.descripcionPrimera{ 
+    text-align: end;
+    position: absolute;
+    top: 40%;
+}
+
+.tituloDescripcion, .textoDescripcion{
+    color: white;
+    padding-left: 75%;
+}
+
