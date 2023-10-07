@@ -9,15 +9,15 @@ header {
     background-color: rgb(71, 71, 71);
 }
 
-.imgNav{
+.imgNav {
     width: 35%;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     justify-content: flex-end;
 }
 
-.navbar-nav{
+.navbar-nav {
     font-size: 20px;
     column-gap: 1.5rem;
 }
@@ -27,30 +27,53 @@ header {
 }
 
 /* Secciones */
-.primera{ 
+.primera {
     position: relative;
 }
 
-.imgPrimera{ 
+.imgPrimera {
     filter: brightness(0.3);
     width: 100%;
 }
 
-.descripcionPrimera{ 
+.descripcionPrimera {
     text-align: end;
     position: absolute;
     top: 40%;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-direction: column;
     align-items: end;
     margin-right: 4rem;
 }
 
-.tituloDescripcion, .textoDescripcion{
+.tituloDescripcion,
+.textoDescripcion {
     color: white;
     max-width: 30%;
 }
 
+/* Cards */
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloSegunda{
+    margin: 2rem 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.flex2 strong{
+    font-size: 34px;
+}
+
+.flexCards{
+    display: flex;
+    column-gap: 2rem;
+}
